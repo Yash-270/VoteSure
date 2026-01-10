@@ -1,0 +1,41 @@
+what??
+user can vote 
+Models?
+routes?
+
+
+what ??
+somtging must?
+signup, login
+list of leaders
+last winini percentage heirachy
+corrup develop, groth kab jyada hui hai
+best of work doen by diff part
+predic which v]partvw iwn by ai chat bit
+live vote couynt
+login as a admin  //to manage the data
+asdha based authenativcaikn
+forget poassword/update poassword
+voters elgile list //not much needed
+admin cant voet
+
+----------------------------------------------------
+
+routes
+user authenat
+  /signup: post - create a new accoint
+  /login: post - log in to an esisting account
+voting:
+    /candidates: GET - list of candidates
+    /vote/candidateId: POST -  vote dal sakte hai
+vote count 
+    /vote/count : Vote count check krna - GET - 
+
+profile
+    /profile- GET - cgeck krna apni details
+    /profile/password - PUT- Update krna -
+admin
+    /candidate: POST- Create new candidate
+    /candidates/candidateId: PUT- Update an candidate
+    /candidates/candidateId: DELETE - deleet a candidate
+
