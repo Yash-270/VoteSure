@@ -6,7 +6,6 @@ const app=express();
 app.use(express.json());//BODY PARSER
 //const passport=require('./auth');
 
-const cors = require("cors");
 
 app.use(cors({
   origin: "https://votesure.netlify.app",
