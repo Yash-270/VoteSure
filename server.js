@@ -6,7 +6,10 @@ const app=express();
 app.use(express.json());//BODY PARSER
 //const passport=require('./auth');
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+  "http://localhost:5173",
+  "https://votesure.netlify.app"
+]
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
